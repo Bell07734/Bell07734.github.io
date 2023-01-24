@@ -1,0 +1,50 @@
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Fira Sans", sans-serif;
+}
+
+.navbar {
+	background-color: #00ff6f;
+}
+
+.navbar li {
+	float: right;
+	list-style: none;
+	margin: 13px 20px;
+}
+
+.navbar .left {
+	float: left;
+}
+
+.navbar ul {
+	overflow: auto;
+	margin: 0;
+}
+
+.navbar li a {
+	padding: 3px 3px;
+	text-decoration: none;
+	color: #232228;
+
+	vertical-align: middle;
+}
+
+.navbar li a:hover {
+	color: #12914c;
+}
+
+body {
+	background-color: #fefefe;
+}
+
+.logo img {
+	border-radius: 10%;
+	margin: 0px 0px;
+}
