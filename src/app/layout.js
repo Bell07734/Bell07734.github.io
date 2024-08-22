@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -16,18 +17,18 @@ export default function RootLayout({ children }) {
         <nav id="navbar">
           <li id="navbarItems">
             <ul className="navbarItem navbarIconContainer">
-              <a href="#">
+              <Link href="#">
                 <img className="navbarIcon" src="/Bell07734.png" />
-              </a>
+              </Link>
             </ul>
             <ul className="navbarItem">
-              <a href="#">Home</a>
+              <Link href="#">Home</Link>
             </ul>
             <ul className="navbarItem right">
-              <a href="#">About</a>
+              <Link href="#">About</Link>
             </ul>
             <ul className="navbarItem">
-              <a href="#">Stupid Stuff</a>
+              <Link href="#">Stupid Stuff</Link>
             </ul>
           </li>
         </nav>
