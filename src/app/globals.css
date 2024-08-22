@@ -12,6 +12,9 @@ li::marker {
 
 #navbar {
   background-color: #9900ff;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 #navbarItems {
