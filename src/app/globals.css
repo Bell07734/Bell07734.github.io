@@ -22,7 +22,6 @@ li::marker {
 
 .navbarItem {
   margin: 1em;
-  font-size: 2.5vw;
   text-align: center;
 
   color: white;
@@ -39,7 +38,7 @@ li::marker {
 .navbarIcon {
   height: auto;
   width: auto;
-  max-height: 10vh;
+  max-height: 50px;
   max-width: 10vw;
 
   border-radius: 25%;
