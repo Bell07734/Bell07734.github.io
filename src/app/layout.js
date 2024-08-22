@@ -22,13 +22,13 @@ export default function RootLayout({ children }) {
               </Link>
             </ul>
             <ul className="navbarItem">
-              <Link href="#">Home</Link>
+              <Link href="/">Home</Link>
             </ul>
             <ul className="navbarItem right">
-              <Link href="#">About</Link>
+              <Link href="/about">About</Link>
             </ul>
             <ul className="navbarItem">
-              <Link href="#">Stupid Stuff</Link>
+              <Link href="/projects">Stupid Stuff</Link>
             </ul>
           </li>
         </nav>

@@ -6,6 +6,19 @@
   color: #232228;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 18pt;
+  font-weight: 900;
+}
+
 li::marker {
   content: "";
 }
